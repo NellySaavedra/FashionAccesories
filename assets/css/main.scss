@@ -1,0 +1,19 @@
+@import "Estilos/variables";
+@import "Estilos/header";
+@import "Estilos/section";
+@import "Estilos/footer";
+@import "Estilos/medias";
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h4 {
+	color:  #A70606 !important;
+}
+a:hover {
+	text-decoration: none;
+}

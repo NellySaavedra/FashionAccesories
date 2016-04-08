@@ -1,0 +1,105 @@
+/*------------menu.responsive...............*/
+.navbar {
+	margin-bottom: 0px !important; 
+}
+.navbar-inverse {
+  background-color: #D8D8D8;
+  border-color: $White;
+  border-radius: 0px;
+  }
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FFFFFF;
+  background-color: #0F243D;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #9E9E9E;
+  background-color: #0F243D; }
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #0F2464; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #0F2464; }
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #A70606;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #417FB1;
+}
+.LiMenu {
+	img, i{
+		margin-right: 4px;
+	}
+}
+header {
+	h6 {
+		padding-top: 8%;
+	}
+}
+.MargenLi2 {
+	margin-top: 20px;
+}
+
+
+.NavCajaExtra {
+	.dropdown-content {
+		width: 300px;
+	}
+}
+/*.....Cajas.Dropdown.......*/
+.dropbtn {
+    background-color: #0F243D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+   	text-align: center; 
+}
+.dropdown-content a {
+    color: $White;
+    padding: $Tres 0%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #2C355C;
+	color: $White;
+	margin-right: 0px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+ .Blue1 {
+ 	background-color: #06104A;
+ }
+ .Blue2 {
+ 	background-color: #0C1F8C;
+ }
+ .Blue3 {
+ 	background-color: #1537F7;
+ }
+}
+.Cart {
+	display: none;
+}
+.collapse:hover .Cart {
+	background-color: transparent !important;
+	display: block;
+	position: absolute;
+	width: 400px;
+	margin: 30px 0px 0px -270px;
+	cursor: pointer;
+
+}

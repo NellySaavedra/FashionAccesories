@@ -1,0 +1,48 @@
+.Footer {
+	margin-top: $Tres;
+	background-color: rgba(123, 124, 125, 0.17);
+	padding: 5% 0%;
+	.IcoRadius {
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+		background-color: $White;
+		padding-top: 2%;
+		display: inline-block;
+		border: 1px solid #0C2536;
+		a {
+			color: #0C2536;
+		}
+	}
+}
+.About {
+	.CajaGris {
+		border-left: none !important;
+		div {
+			float: left;
+		}
+		.CajaIco {
+			background-color: $White;
+			border: 1px solid #0C2536;
+			border-radius: 15%;
+			padding: 1px;
+		}
+	}
+}
+.BackF2 {
+	background-color:  #0F243D;
+	color: $White;
+	padding: 1% 0%;
+	.TDC {
+		width: $ValorImgMax;
+	}
+	span {
+		color: #A83506;
+	}
+	.row {
+		margin-top: 0%;
+		.TDC {
+			margin-top: -4px;
+		}
+	}
+}
